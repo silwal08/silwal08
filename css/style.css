@@ -1,0 +1,43 @@
+* body{
+    background-color: lightblue;
+}
+.main{
+    background-color: black; 
+    color: aliceblue;
+
+}
+
+.header{
+    background-color: aqua;
+    color: white;
+}
+
+.logo {
+    margin:0;
+    padding: 0;
+    width: 200px;
+
+}
+
+.logo img{
+    border-radius: 50%;
+}
+
+.nav {
+    background-color: rgb(0, 4, 7);
+    color: black; 
+}
+.menu{
+    color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  float: right;
+}
