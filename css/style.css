@@ -1,15 +1,21 @@
 * body{
-    background-color: lightblue;
+   ;
+    font-style:italic;
+    background-image:url("background/logo.jpg");
+    
 }
 .main{
     background-color: black; 
-    color: aliceblue;
+    color:aliceblue
 
 }
 
 .header{
     background-color: aqua;
     color: white;
+    display: flex; 
+    justify-content:space-between;
+
 }
 
 .logo {
@@ -21,23 +27,72 @@
 
 .logo img{
     border-radius: 50%;
+    letter: spacing 1.5em;;
 }
 
 .nav {
-    background-color: rgb(0, 4, 7);
-    color: black; 
+    background-color:aquamarine
+    color:aliceblue;
+
 }
 .menu{
-    color: black;
-    list-style-type: none;
+    color: rgb(220, 212, 212);
+    list-style-type:inherit;
     margin: 0;
     padding: 0;
 }
 .menu li{
-    display: block;
+    display:inline-block;
   color: black;
   text-align: center;
   padding: 16px;
   text-decoration: none;
   float: right;
+}
+.nav{
+        text-align: center;
+        width: 60%;
+        height: 75px;
+        background-color: azure;
+        position:relative;
+}
+
+h1{
+    text-align:center;
+    font-size:60px;
+    line-height: 3cm;
+}
+
+.detail{
+    display: list-item;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+}
+.profile img  {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 100%;
+    position:relative;
+    left:600px;
+}
+}
+.paragraph{
+    padding: 100px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+.subpara{
+    column-count: 2;
+}
+.description{
+    text-align:justify;
+    font-family: initial;
+    
+}
+.description h1{
+    bottom: 900px;
+    color: brown;
 }
