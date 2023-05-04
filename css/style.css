@@ -1,98 +1,171 @@
-* body{
-   ;
-    font-style:italic;
-    background-image:url("background/logo.jpg");
-    
-}
-.main{
-    background-color: black; 
-    color:aliceblue
-
+* {
+    /*  margin: 0px; */
+    padding: 0px;
 }
 
-.header{
-    background-color: aqua;
+*body {
+
+    font-style: italic;
+    background-image: url("../images/white.jpeg");
+}
+
+.container {
+    color: rgb(8, 125, 242);
+}
+
+.header {
+    background-color: #87CEFA;
     color: white;
-    display: flex; 
-    justify-content:space-between;
-
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
 }
 
 .logo {
-    margin:0;
+    margin: 0;
     padding: 0;
     width: 200px;
 
 }
 
-.logo img{
+.logo img {
     border-radius: 50%;
-    letter: spacing 1.5em;;
+    letter-spacing: 1.5em;
+    width: 500px;
+    height: 150px;
 }
 
 .nav {
-    background-color:aquamarine
-    color:aliceblue;
-
+    text-align: center;
+    height: 75px;
 }
-.menu{
-    color: rgb(220, 212, 212);
-    list-style-type:inherit;
+
+.menu {
+    color: white;
+    list-style-type: inherit;
     margin: 0;
     padding: 0;
 }
-.menu li{
-    display:inline-block;
-  color: black;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-  float: right;
-}
-.nav{
-        text-align: center;
-        width: 60%;
-        height: 75px;
-        background-color: azure;
-        position:relative;
+
+.menu li a:hover {
+    color: rgb(228, 29, 188);
 }
 
-h1{
-    text-align:center;
-    font-size:60px;
-    line-height: 3cm;
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+
 }
 
-.detail{
+.menu li {
+    display: inline-flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    padding: 0px 97px;
+    margin: 10px;
+
+}
+
+.menulinks {
+    font-size: 74px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.detail {
     display: list-item;
     width: 40%;
     height: 40%;
     text-align: center;
 }
-.profile img  {
-    width: 1000px;
+
+.profile img {
+    width: 800px;
     height: 1000px;
     border-radius: 100%;
-    position:relative;
-    left:600px;
 }
-}
-.paragraph{
+
+.paragraph {
     padding: 100px;
     text-align: center;
     margin-top: 20px;
     width: 100px;
     height: 100px;
 }
-.subpara{
+
+.subpara {
     column-count: 2;
 }
-.description{
-    text-align:justify;
-    font-family: initial;
+
+.aboutme__title {
+    margin: 30px;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    background-color: #00BFFF;
+}
+
+.aboutme__description {
+    background-color: bisque;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.profile__picture {
+    margin: 20px;
+    padding: 30px;;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+.profile {
+    background-color: rgba(141, 216, 228, 255);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin: 30px;
+    padding:30px;
+}
+.profile__description{
+    padding: 60px;
+    line-height: 40px;
+    text-align: center;
+    border: 500px;
+    padding: 50px;
+}
+.profile__description h1 {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: fantasy;
     
 }
-.description h1{
-    bottom: 900px;
-    color: brown;
+.profile__description h2{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: fantasy;
+    
+}
+.profile__description h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+.footer{
+    margin: 20px;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #87CEFA;
+    border-radius: 30px;
+
 }
