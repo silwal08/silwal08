@@ -1,5 +1,6 @@
 * {
-    padding: 0px;
+  /*  margin: 0px;;
+    padding: 0px;*/
 
 }
 
@@ -24,14 +25,15 @@
 .logo {
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 20px;
+
 
 }
 
 .logo img {
-    letter-spacing: 3em;
-    width: 800px;
-    height: 300px;
+    width: 200px;
+    height: 100px;
+    padding: 10px;;
 }
 
 .nav {
@@ -58,7 +60,6 @@
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    text-shadow: 3px 3px;
 }
 
 .menu li {
@@ -68,13 +69,13 @@
     text-align: center;
     padding: 16px;
     text-decoration: none;
-    padding: 16px 97px;
+    padding: 20px;
     margin: 10px;
 
 }
 
 .menulinks {
-    font-size: 60px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: italic;
 }
@@ -104,31 +105,32 @@
 }
 
 .profile img {
-    height: 1700px;
+    width: 400px;
+    height: 500px;
     align-items: left;
-    margin: 20px;
+    margin: 0px;
     padding:0px;
 }
 
 .profile__info {
-    margin-top: 6%;
-    margin-left: 7%;
-    padding: 60px;
-    line-height: 40px;
-    border: 500px;
-    padding: 50px;
+    border: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.profile__info h1 {
-    font-size: 60px;
+.profile__info h1 {x
+    font-size: 10px;
     font-weight: bold;
     font-family: fantasy;
 }
 
 .profile__info_d h3 {
-    font-size: 100px;
+
+    font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
 .profile__info_d h1 {
@@ -139,7 +141,7 @@
 }
 
 .profile__info_d p {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -160,10 +162,13 @@
 
 .footer {
     margin: 20px;
-    padding: 5px;
     font-size: 40px;
     text-align: center;
     background-color: #87CEFA;
-    border-radius: 30px;
+    border-radius: 20px;
 
+}
+.phone p{
+    font-size: 50px;
+    color: black;
 }
