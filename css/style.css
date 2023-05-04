@@ -83,9 +83,10 @@
 }
 
 .profile img {
-    width: 800px;
-    height: 1000px;
+    width: 600px;
+    height: 800px;
     border-radius: 100%;
+    align-items: left;
 }
 
 .paragraph {
@@ -132,7 +133,7 @@
     background-color: rgba(141, 216, 228, 255);
     display: flex;
     justify-content: space-around;
-    border-radius: 30px;
+    border-radius: 10% 30% 50% 70%;;
     margin: 30px;
     padding:30px;
 }
@@ -153,12 +154,20 @@
     font-size: 60px;
     font-weight: bold;
     font-family: fantasy;
-    
 }
 .profile__description h3{
     font-size: 40px;
     font-weight: bold;
     font-family: fantasy;
+}
+.profile__description p{
+   
+    padding: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
 }
 .footer{
     margin: 20px;
