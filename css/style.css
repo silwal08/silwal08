@@ -1,6 +1,7 @@
 * {
     /*  margin: 0px; */
     padding: 0px;
+    
 }
 
 *body {
@@ -14,8 +15,8 @@
 }
 
 .header {
-    background-color:grey;
-    color: white;
+    background-color: white;
+    color: black;
     display: flex;
     justify-content: space-between;
     border-radius: 30px;
@@ -29,15 +30,18 @@
 }
 
 .logo img {
-    border-radius: 50%;
     letter-spacing: 1.5em;
     width: 500px;
-    height: 150px;
+    height: 160px;
 }
 
 .nav {
-    text-align: center;
+    margin:0;
+    padding: 60px;
+    align-items: center;
     height: 75px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu {
@@ -54,7 +58,7 @@
 .menu li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: black;
     text-shadow: 3px 3px;
 }
 
@@ -65,15 +69,15 @@
     text-align: center;
     padding: 16px;
     text-decoration: none;
-    padding: 0px 97px;
+    padding: 16px 97px;
     margin: 10px;
 
 }
 
 .menulinks {
-    font-size: 74px;
-    font-family: fantasy;
-    font-weight: bold;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: italic;
 }
 
 .detail {
@@ -83,8 +87,6 @@
     text-align: center;
 }
 
-
-
 .paragraph {
     padding: 100px;
     text-align: center;
@@ -92,83 +94,72 @@
     width: 100px;
     height: 100px;
 }
-
-.subpara {
-    column-count: 2;
-}
-/*
-.aboutme__title {
-    margin: 30px;
-    border-radius: 30px;
-    padding: 30px;
-    text-align: center;
-    font-size: 80px;
-    text-transform: uppercase;
-    font-family: fantasy;
-    background-color: #00BFFF;
-}
-
-.aboutme__description {
-    background-color: bisque;
-    font-size: 60px;
-    font-style: italic;
-    font-weight: bold;
-    margin: 30px;
-    padding: 30px;
-    border-radius: 30px;
-}
-*/
-
 .profile {
-    background-color: rgba(141, 216, 228, 255);
+    background-color: white;
     display: flex;
     justify-content: space-around;
-    border-radius: 10% / 50%;;
+    border-radius: 10% / 50%;
     margin: 30px;
-    padding:30px;
+    padding: 30px;
 }
+
 .profile img {
-    width: 600px;
-    height: 800px;
-   border-radius: 100%; 
+    height: 1700px;
+    border-radius: 100%;
     align-items: left;
     margin: 40px;
-    padding: 40px;;
+    padding: 90px;
 }
-.profile__description{
+
+.profile__info {
+    margin-top: 6%;
+    margin-left: 7%;
     padding: 60px;
     line-height: 40px;
-    text-align: center;
     border: 500px;
     padding: 50px;
 }
-.profile__description h1 {
-    font-size: 100px;
-    font-weight: bold;
-    font-family: fantasy;
-    
-}
-.profile__description h2{
+
+.profile__info h1 {
     font-size: 60px;
     font-weight: bold;
     font-family: fantasy;
 }
-.profile__description h3{
-    font-size: 40px;
+
+.profile__info_d h3 {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile__info_d h1 {
+    font-size: 60px;
     font-weight: bold;
     font-family: fantasy;
 
 }
-.profile__description p{
-   
-    padding: 100px;
+
+.profile__info_d p {
+    margin: 30px;
+    padding: 50px;
     font-size: 40px;
     font-weight: bold;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: center;
 }
-.footer{
+
+.profile__info p {
+    margin: 30px;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    
+}
+
+.footer {
     margin: 20px;
     padding: 5px;
     font-size: 40px;
