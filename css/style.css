@@ -1,6 +1,6 @@
 * {
-  /*  margin: 0px;;
-    padding: 0px;*/
+    /* margin: 0px;;
+    padding: 0px; */
 
 }
 
@@ -11,7 +11,8 @@
 }
 
 .container {
-    color: rgb(8, 125, 242);
+   height: fit-content;
+    overflow-x: hidden;
 }
 
 .header {
@@ -34,7 +35,8 @@
 .logo img {
     width: 200px;
     height: 100px;
-    padding: 10px;;
+    padding: 10px;
+    ;
 }
 
 .nav {
@@ -112,7 +114,7 @@
     height: 500px;
     margin: -30%;
     margin-left: -7%;
-    
+
 }
 
 .profile__info {
@@ -122,8 +124,8 @@
     justify-content: space-between;
 }
 
-.profile__info h1 {x
-    font-size: 10px;
+.profile__info h1 {
+    x font-size: 10px;
     font-weight: bold;
     font-family: fantasy;
 }
@@ -160,7 +162,8 @@
     margin: 20px;
     margin-right: -60px;
     color: white;
-    font-size: 40px;;
+    font-size: 40px;
+    ;
 }
 
 .footer {
@@ -172,7 +175,8 @@
     border-radius: 20px;
 
 }
-.phone p{
+
+.phone p {
     font-size: 50px;
     color: black;
 }
