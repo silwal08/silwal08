@@ -125,3 +125,51 @@ body {
     height: 100%;
     background: skyblue;
 }
+.right .name{
+    color: black;
+}
+.right img{
+    width: 500px;
+    margin-left: 60px;   
+}
+.right h2 {
+    background-size: 20px;
+    color: white;
+}
+.right span{
+    color: black;
+}
+
+.right p{
+   text-align: justify;
+   margin: auto;
+   padding:10px;
+   position:relative;
+   display: block;
+  
+}
+.Experience h2{
+    color: black;
+    margin-top: 20px;
+}
+.Experience .box{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.Experience .box .year_company{
+    min-width: 180px;
+}
+.Experience .box .year_company h5{
+    text-transform: capitalize;
+}
+.Experience .box .text p{
+    font-size: 18px;
+    text-align: justify;
+}
+.list li{
+    float: left;
+    margin: 0 20px;
+    text-align:justify;
+}
+
