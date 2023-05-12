@@ -38,7 +38,6 @@
     margin:0;
     display:flex;
     justify-content:space-between;
-
 }
 
 .menu {
@@ -54,7 +53,8 @@
 .menu li a {
     text-decoration:none;
     text-transform:uppercase;
-    color:dark;
+    color:#003147;
+    font-weight: bold;
 }
 
 .menu li {
@@ -188,6 +188,10 @@
     margin-right:800px;
     color: white;
 }
+.footer .info a:hover{
+    background-color: hsl(150, 25%, 52%);
+    display:inline;
+}   
 .footer .info a{
     color: white;
     text-align: right;
@@ -195,6 +199,4 @@
     width: 20px;
     height: 20px;
     font-size: 30px;
-   
-    
 }

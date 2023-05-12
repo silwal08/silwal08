@@ -44,6 +44,7 @@ body {
     font-size: 20px;
 }
 
+}
 .contact {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,7 +62,10 @@ body {
     margin-top: 20px;
     font-size:15px;
 }
-
+.info a:hover{
+    background-color: blue;
+    text-decoration: none;
+}
 .info a {
     font-size: 20px;
     list-style-type: h;
@@ -134,7 +138,6 @@ body {
 }
 .right h2 {
     background-size: 20px;
-    color: white;
 }
 .right span{
     color: black;
@@ -172,4 +175,21 @@ body {
     margin: 0 20px;
     text-align:justify;
 }
-
+.certification h4{
+    font-size: 20px;
+}
+.certification li{
+    font-size: 15px;
+    line-height: 25px;
+    list-style-type:square;
+}
+.skills h5{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.proskills li{
+    font-size: 15px;
+    line-height: 25px;
+    list-style-type:square;
+    display: inline;
+}
