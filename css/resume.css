@@ -44,7 +44,6 @@ body {
     font-size: 20px;
 }
 
-}
 .contact {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -114,20 +113,24 @@ body {
     color: white;
     padding: 5px;
 }
-.Language .percent{
-    position: relative;
-    width: 100%;
-    height:6px;
-    background: red;
-    display: block;
-    margin-top: 5px;
+.skills{
+    margin-left: 20px;
 }
-.Language .percent div{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    background: skyblue;
+.skills h5{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    margin: 10px;
+}
+.proskills li{
+    font-size: 15px;
+    line-height: 20px;
+    list-style-type:square;
+    color: white;
+    list-style-type: none;
+    padding: 5px;
+
+   
 }
 .right .name{
     color: black;
@@ -145,11 +148,15 @@ body {
 
 .right p{
    text-align: justify;
+   font-size: 15px;
    margin: auto;
    padding:10px;
    position:relative;
    display: block;
   
+}.Experience{
+    text-align: left;
+    margin-left: 40px;
 }
 .Experience h2{
     color: black;
@@ -161,19 +168,21 @@ body {
     margin: 20px 0px;
 }
 .Experience .box .year_company{
-    min-width: 180px;
 }
 .Experience .box .year_company h5{
     text-transform: capitalize;
+    font-size: 13px;
+    text-align: left;
+    margin-right: 10px;
+    width: 120px;
 }
-.Experience .box .text p{
-    font-size: 18px;
-    text-align: justify;
-}
-.list li{
-    float: left;
-    margin: 0 20px;
-    text-align:justify;
+.Experience .box .text li{
+    font-size: 14px;
+   margin-right: 10px;
+   text-align:justify;
+    color: black;
+    padding-left: 10px;
+    list-style-type: none;
 }
 .certification h4{
     font-size: 20px;
@@ -183,13 +192,38 @@ body {
     line-height: 25px;
     list-style-type:square;
 }
-.skills h5{
+.Technical h5{
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding-right: 100px;
 }
-.proskills li{
+.Tech li{
     font-size: 15px;
-    line-height: 25px;
-    list-style-type:square;
-    display: inline;
+   margin-right: 10px   ;
+    list-style: square;
+    color: black;
+    padding: 5px;
+    
 }
+.Experience h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+.Experience h6{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding-right: 100px;
+}
+.Exp li{
+    font-size: 15px;
+   margin-right: 10px   ;
+    list-style: square;
+    color: black;
+    padding: 5px;
+    
+}
+   

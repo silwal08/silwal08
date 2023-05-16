@@ -1,4 +1,7 @@
-body {}
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .logo {
     margin: 0;
@@ -24,8 +27,9 @@ body {}
     padding-right: 20px;
     text-align: center;
 }
-.Sbox{
-   margin-left: 200px;
+
+.Sbox {
+    margin-left: 200px;
 }
 
 .container {
@@ -55,8 +59,8 @@ body {}
     background-color: #003147;
     display: flex;
     justify-content: space-between;
-    border-radius: 10%;
 }
+
 .footer p {
     margin-right: 800px;
     color: white;
@@ -65,14 +69,74 @@ body {}
 .footer .info a:hover {
     display: inline;
 }
+
 .footer .info {
     padding: 20px;
 
 }
+
 .footer .info a {
 
     padding-top: 60px;
     text-align: right;
     letter-spacing: 20px;
     font-size: 30px;
+}
+
+/* form  */
+.left{
+   
+    display: flex;
+    justify-content: center;
+}
+.right{
+    padding: 50px;
+}
+.login {
+    width: 360px;
+    height: 650px;
+}
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+h1.lo{
+    text-transform: capitalize;
+}
+h1.formtext{
+    text-transform: capitalize;    
+}
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form select {
+    display: flex;
+    font-size: 15px;
+    padding: 7px;
+    border-color: gray;
+    outline: none;
+    border: solid;
+    line-height: 3px;
+    width: 105%;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-color: gray;
+    border-radius: 6px;
+    outline: none;
+    border: solid;
+    align-items: center;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    display: grid;
+    margin-top: 25px;
+    font-weight: bold;
+    background-color: #003147;
+    color: white;
 }
